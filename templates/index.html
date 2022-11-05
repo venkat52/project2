@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block body %} 
+  <div class="box">
+  <form action="/" method="POST">
+    <div>
+    <label for="location">Location:</label>
+    <select name="location" id="location">
+      <option value=" Devarachikkanahalli">Devarachikkanahalli</option>
+      <option value="1st Block Jayanagar">1st Block Jayanagar</option>
+      <option value="Lingadheeranahalli">Lingadheeranahalli</option>
+      <option value="1st Phase JP Nagar">1st Phase JP Nagar</option>
+      <option value="2nd Stage Nagarbhavi">2nd Stage Nagarbhavi</option>
+      <option value="5th Block Hbr Layout">5th Block Hbr Layout</option>
+      <option value="5th Phase JP Nagar">5th Phase JP Nagar</option>
+    </select>
+    </div>
+    <br>
+    <div>
+    <label for="total_sqft">Total Sqft : </label>
+    <input type="text" name="total_sqft" id="total_sqft" required>
+    </div>
+    <br>
+    <div>
+    <label for="bath">No.of bathrooms: </label>
+    <input type="text" name="bath" id="bath" required>
+    </div>
+    <br>
+    <div>
+    <label for="bhk">No.of bedrooms: </label>
+    <input type="text" name="bhk" id="bhk" required>
+    </div>
+    <br>
+    <div>
+    <input type="submit" value="submit">
+    </div>
+  </form>
+  </div>
+{% endblock %} 

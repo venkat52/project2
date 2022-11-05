@@ -1,0 +1,15 @@
+body{
+    /* color:  */
+    background-color: rgb(90, 21, 93);
+}
+
+.box{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 10px;
+    padding: 20px;
+    /* margin:100px; */
+    margin-top: 200px;
+    /* color: aqua; */
+    background-color: white;
+}
